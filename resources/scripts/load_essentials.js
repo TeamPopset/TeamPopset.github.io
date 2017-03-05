@@ -38,9 +38,5 @@ $(document).ready(function () {
     document.body.insertBefore(header,document.body.firstChild);
     document.body.appendChild(footer);
     console.log("web cargada");
-    setTimeout(function(){
-        console.log("Mostrando web");
-        document.getElementsByTagName("body")[0].style.visibility = "visible";
-    },1000);
 });
 
