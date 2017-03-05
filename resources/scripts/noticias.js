@@ -3,7 +3,6 @@ function cargaNoticia(noticia) {
 }
 
 $(document).ready(function () {
-    alert("ejecutando script de noticias");
     var noticias = $(".img_noticia");
     for (var i = 0; i < noticias.length; i++) {
         console.log(noticias[i].toJSON());
