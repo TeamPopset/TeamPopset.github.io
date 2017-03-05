@@ -1,0 +1,77 @@
+/* HOW TO USE IT */
+/*
+.section
+splits up the page horizontally. You'll need a few of these to break up the content, and you can use them in your main wrapper, or within other divs.
+
+.col
+divides the section into columns. Each column has a left margin except the first one. Using .col:first-child { margin-left: 0; } means you don't need to use class="last" anywhere. It works in all browsers since IE6.
+
+.group
+solves floating problems, by forcing the section to self clear its children (aka the clearfix hack). This is good in Firefox 3.5+, Safari 4+, Chrome, Opera 9+ and IE 6+.
+
+.span-1
+specifies the width of the column. Using percentages means it's 100% fluid.
+
+@media queries
+as soon as the screen size gets less than 480 pixels the columns stack and the margins disappear.
+*/
+
+/*  SECTIONS  */
+.section {
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+
+/*  COLUMN SETTINGS  */
+[class*="span-"] {
+    display: block;
+    float: left;
+    padding: 1% 0;
+    margin: 0 0.15% 0 0;
+}
+
+[class*="span-"]:first-child {
+     margin-left: 0;
+}
+
+.no-top-padding{
+    padding-top: 0.2%;
+}
+
+/*  GRID OF TWELVE  */
+.span-1 {width: 8%;}
+.span-2 {width: 16%;}
+.span-3 {width: 25%;}
+.span-4 {width: 33%;}
+.span-5 {width: 41%;}
+.span-6 {width: 50%;}
+.span-7 {width: 58%;}
+.span-8 {width: 66%;}
+.span-9 {width: 75%;}
+.span-10 {width: 83%;}
+.span-11 {width: 91%;}
+.span-12 {width: 100%;}
+.empty {visibility: hidden;}
+
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+    [class*="span-"] {  margin: 1% 0 1% 0%; }
+
+    .span-1, .span-2, .span-3, .span-4, .span-5, .span-6,
+    .span-7, .span-8, .span-9, .span-10, .span-11, .span-12{
+        width: 100%;
+    }
+
+    .empty {display: none;}
+
+}
