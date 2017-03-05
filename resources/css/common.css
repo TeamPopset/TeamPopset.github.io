@@ -3,7 +3,6 @@ body{
     color: black;
     background: url("/resources/images/background.png") repeat;
     background-size: 100vw;
-    visibility: hidden;
 }
 
 body #webContent{
