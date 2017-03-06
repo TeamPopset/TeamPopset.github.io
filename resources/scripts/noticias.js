@@ -1,11 +1,17 @@
-function cargaNoticia(noticia) {
-    console.log("Noticia: " + noticia);
+function cargaNoticia(noticia,year,month) {
+    console.log("Noticia Titular: " + noticia);
+    console.log("Noticia Año: " + year);
+    console.log("Noticia Mes: " + month);
 }
 
 $(document).ready(function () {
     var noticias = $(".img_noticia");
     for (var i = 0; i < noticias.length; i++) {
-        console.log(noticias[i].getAttribute("title"));
-        noticias[i].on("click",cargaNoticia(noticias[i]));
+        var noticia = noticias[i];
+        noticia.on({'click':
+            function(){
+                noticia.attr('onclick','cargaNoticia('+noticia.getAttribute("title")+','+noticia.getAttribute("year")+','+noticia.getAttribute("month")+')');
+            }
+        });
     }
 });
