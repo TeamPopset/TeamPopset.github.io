@@ -2,6 +2,11 @@ function crearLinkNoticia(noticia) {
     console.log("Noticia Titular: " + noticia.getAttribute("title"));
     console.log("Noticia Año: " + noticia.getAttribute("data-year"));
     console.log("Noticia Mes: " + noticia.getAttribute("data-month"));
+    noticia.setAttribute("onclick","cargaNoticia(this)");
+}
+
+function cargaNoticia(noticia) {
+    alert("FUNCION CARGA NOTICIA LLAMADA POR: " + arguments.callee.caller.toString());
 }
 
 $(document).ready(function () {
