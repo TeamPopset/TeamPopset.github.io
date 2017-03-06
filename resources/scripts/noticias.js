@@ -8,10 +8,6 @@ $(document).ready(function () {
     var noticias = $(".img_noticia");
     for (var i = 0; i < noticias.length; i++) {
         var noticia = noticias[i];
-        noticia.on({'click':
-            function(){
-                noticia.attr('onclick','cargaNoticia('+noticia.getAttribute("title")+','+noticia.getAttribute("year")+','+noticia.getAttribute("month")+')');
-            }
-        });
+        cargaNoticia(noticia.getAttribute("title"),noticia.getAttribute("data-year"),noticia.getAttribute("data-month"));
     }
 });
