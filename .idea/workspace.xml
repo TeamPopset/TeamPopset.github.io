@@ -230,7 +230,7 @@
       <option name="presentableId" value="Default" />
       <updated>1488719949505</updated>
       <workItem from="1488719951137" duration="1223000" />
-      <workItem from="1488721826356" duration="8510000" />
+      <workItem from="1488721826356" duration="8515000" />
     </task>
     <task id="LOCAL-00001" summary="Añadido a WebStorm&#10;">
       <created>1488721864721</created>
@@ -351,11 +351,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488758023995</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Carga Noticias">
+      <created>1488760521792</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1488760521792</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9733000" />
+    <option name="totallyTimeSpent" value="9738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
