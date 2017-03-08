@@ -5,12 +5,14 @@ function cargaNoticia(noticia) {
     var direccion = "/noticias/"+attrYear+"/"+attrMonth+"/"+attrTitle+".json";
     console.log(direccion);
     $.getJSON(direccion,function (data) {
-        console.log("Json recuperado: " + data.toString());
+        console.log("Json recuperado: " + data.parseJSON.toString());
         var articulo = document.createElement("article");
-        var titular = document.createElement("h1").innerHTML=data.titular;
+        var titular = document.createElement("h1");
+        titular.innerHTML=data.titular;
         var imagenTitular = document.createElement("img").setAttribute("src",attrTitle+".png");
 
-        articulo.appendChild(titular).appendChild(imagenTitular);
+        articulo.appendChild(titular);
+        articulo.appendChild(imagenTitular);
 
         var parrafos = data.parrafos;
         $.each(parrafos, function (k,v) {
