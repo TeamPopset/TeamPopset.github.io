@@ -12,7 +12,9 @@ function cargaNoticia(noticia) {
         var parrafos;
         for (var i=0; i <  data.parrafos.length; i++)
         $("#Noticia").appendChild(articulo);
-    });
+    })
+    .error(function(jqXHR, textStatus, errorThrown) { console.log('getJSON request failed! ' + textStatus); });
+
 }
 
 $(document).ready(function () {
