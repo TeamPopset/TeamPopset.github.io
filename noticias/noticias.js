@@ -5,7 +5,7 @@ function cargaNoticia(noticia) {
     var direccion = "/noticias/"+attrYear+"/"+attrMonth+"/"+attrTitle+".json";
     console.log(direccion);
     $.getJSON(direccion,function (data) {
-        console.log("Json recuperado: " + data.parseJSON.toString());
+        console.log("Json recuperado: " + data.parseJSON);
         var articulo = document.createElement("article");
         var titular = document.createElement("h1");
         titular.innerHTML=data.titular;
