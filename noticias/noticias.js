@@ -20,7 +20,7 @@ function cargaNoticia(noticia) {
             console.log(k+":"+v);
         });
 
-        $("#Noticia").appendChild(articulo);
+        $("#Noticia")[0].appendChild(articulo);
     });
 }
 
