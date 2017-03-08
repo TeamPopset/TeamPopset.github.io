@@ -4,7 +4,7 @@ function cargaNoticia(noticia) {
     var attrTitle = noticia.getAttribute("title").split(" ").join("_");
     var direccion = "/noticias/"+attrYear+"/"+attrMonth+"/"+attrTitle+".json";
     console.log(direccion);
-    console.log(window.location);
+    console.log(window.localStorage);
     $.getJSON(direccion,function (data) {
         console.log("Json recuperado: " + data.toString());
         var articulo = document.createElement("article");
