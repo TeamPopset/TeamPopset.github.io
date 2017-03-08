@@ -1,4 +1,3 @@
-
 function cargaNoticia(noticia) {
     var idNoticia = $("#Noticia");
     idNoticia.visibility="hidden";
