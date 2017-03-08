@@ -3,6 +3,7 @@ function cargaNoticia(noticia) {
     var attrMonth = noticia.getAttribute("data-month");
     var attrTitle = noticia.getAttribute("title").split(" ").join("_");
     var direccion = "../../noticias/"+attrYear+"/"+attrMonth+"/"+attrTitle+".json";
+    console.log(direccion);
     $.getJSON(direccion,function (data) {
         console.log("Json recuperado: " + data.toString());
         var articulo = document.createElement("article");
