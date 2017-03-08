@@ -18,7 +18,7 @@ function cargaNoticia(noticia) {
         var parrafosJSON = data.parrafos;
         $.each(parrafosJSON, function (k,v) {
             var parrafo = document.createElement("p");
-            console.log("valor:" + v);
+            console.log("valor:" + v.toString());
             parrafo.innerHTML=v;
             articulo.appendChild(parrafo);
         });
