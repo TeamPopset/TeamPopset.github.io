@@ -1,0 +1,5 @@
+#BloqueNoticia{
+    visibility: hidden;
+    border: ghostwhite 2px outset;
+    border-radius: 30px;
+}

@@ -5,10 +5,6 @@ body{
     background-size: 100vw;
 }
 
-body #webContent{
-    min-height: calc(100vh - 372px);
-}
-
 /* HEADER CSS */
 header{
     background-color: #333333;
