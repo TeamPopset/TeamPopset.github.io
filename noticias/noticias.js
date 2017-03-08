@@ -9,10 +9,11 @@ function cargaNoticia(noticia) {
         var articulo = document.createElement("article");
         var titular = document.createElement("h1");
         titular.innerHTML=data.titular;
-        var imagenTitular = document.createElement("img").setAttribute("src",attrTitle+".png");
+        //var imagenTitular = document.createElement("img");
+        //imagenTitular.setAttribute("src",attrTitle+".png");
 
         articulo.appendChild(titular);
-        articulo.appendChild(imagenTitular);
+        //articulo.appendChild(imagenTitular);
 
         var parrafos = data.parrafos;
         $.each(parrafos, function (k,v) {
