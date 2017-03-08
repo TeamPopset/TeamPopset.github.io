@@ -15,9 +15,12 @@ function cargaNoticia(noticia) {
         articulo.appendChild(titular);
         //articulo.appendChild(imagenTitular);
 
-        var parrafos = data.parrafos;
-        $.each(parrafos, function (k,v) {
-            console.log(k+":"+v);
+        var parrafosJSON = data.parrafos;
+        $.each(parrafosJSON, function (k,v) {
+            var parrafo = document.createElement("p");
+            console.log("valor:" + v);
+            parrafo.innerHTML=v;
+            articulo.appendChild(parrafo);
         });
 
         $("#Noticia")[0].appendChild(articulo);
