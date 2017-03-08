@@ -1,6 +1,7 @@
+
 function cargaNoticia(noticia) {
     var idNoticia = $("#Noticia");
-    idNoticia.hide();
+    idNoticia.visibility="hidden";
     var attrYear = noticia.getAttribute("data-year");
     var attrMonth = noticia.getAttribute("data-month");
     var attrTitle = noticia.getAttribute("title").split(" ").join("_");
@@ -27,7 +28,7 @@ function cargaNoticia(noticia) {
 
         idNoticia[0].appendChild(articulo);
     });
-    idNoticia.show();
+    idNoticia.visibility="visible";
 }
 
 $(document).ready(function () {
