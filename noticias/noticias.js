@@ -28,7 +28,9 @@ function cargaNoticia(noticia) {
         idNoticia.appendChild(articulo);
         console.log("Fin Metodo JSON");
     });
-    idNoticia.style.visibility="visible";
+    if (idNoticia.innerHTML!=""){
+        idNoticia.style.visibility="visible";
+    }
 }
 
 $(document).ready(function () {
