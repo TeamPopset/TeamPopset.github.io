@@ -57,18 +57,8 @@
       <file leaf-file-name="noticias.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/noticias/noticias.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="45" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="load_essentials.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/scripts/load_essentials.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="510">
+              <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -324,14 +314,7 @@
       <workItem from="1488719951137" duration="1223000" />
       <workItem from="1488721826356" duration="14107000" />
       <workItem from="1488841146344" duration="2375000" />
-      <workItem from="1488960464755" duration="10221000" />
-    </task>
-    <task id="LOCAL-00006" summary="Carga Noticias">
-      <created>1488749177737</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1488749177737</updated>
+      <workItem from="1488960464755" duration="10342000" />
     </task>
     <task id="LOCAL-00007" summary="Carga Noticias">
       <created>1488749188214</created>
@@ -669,11 +652,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489018228554</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Carga Noticias con JSON arreglado">
+      <created>1489018277181</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1489018277181</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27926000" />
+    <option name="totallyTimeSpent" value="28047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -839,14 +829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/scripts/jquery/jquery-3.1.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="1146" column="8" lean-forward="false" selection-start-line="1146" selection-start-column="8" selection-end-line="1146" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/noticias/2017/03/Estrenamos_Web.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -887,10 +869,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/scripts/jquery/jquery-3.1.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="1150" column="11" lean-forward="false" selection-start-line="1150" selection-start-column="11" selection-end-line="1150" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/noticias/noticias.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="45" lean-forward="false" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+        <state relative-caret-position="510">
+          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
           <folding />
         </state>
       </provider>
