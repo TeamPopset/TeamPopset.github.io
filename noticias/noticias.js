@@ -1,7 +1,7 @@
 function cargaNoticia(noticia) {
     var idNoticia = document.getElementById("Noticia");
 
-    idNoticia.hide(1000,"swing");
+    idNoticia.style.visibility="hidden";
     idNoticia.innerHTML="";
 
     var attrYear = noticia.getAttribute("data-year");
@@ -30,7 +30,7 @@ function cargaNoticia(noticia) {
         console.log("Fin Metodo JSON");
     });
 
-    idNoticia.show(1000,"swing");
+    idNoticia.style.visibility="visible";
 }
 
 $(document).ready(function () {
