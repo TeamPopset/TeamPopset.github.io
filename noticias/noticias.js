@@ -24,7 +24,7 @@ function cargaNoticia(noticia) {
             articulo.appendChild(parrafo);
         });
 
-        $("#Noticia").appendChild(articulo);
+        $("#Noticia")[0].appendChild(articulo);
         console.log("Fin Metodo JSON");
     });
     $("#Noticia").toggle(1000);
