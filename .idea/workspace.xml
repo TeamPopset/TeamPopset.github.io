@@ -57,8 +57,8 @@
       <file leaf-file-name="noticias.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/noticias/noticias.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="39" />
+            <state relative-caret-position="527">
+              <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -317,14 +317,7 @@
       <workItem from="1488719951137" duration="1223000" />
       <workItem from="1488721826356" duration="14107000" />
       <workItem from="1488841146344" duration="2375000" />
-      <workItem from="1488960464755" duration="10887000" />
-    </task>
-    <task id="LOCAL-00011" summary="Carga Noticias">
-      <created>1488749930838</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1488749930838</updated>
+      <workItem from="1488960464755" duration="10991000" />
     </task>
     <task id="LOCAL-00012" summary="Carga Noticias">
       <created>1488750168412</created>
@@ -662,11 +655,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489018758839</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Carga Noticias con JSON arreglado">
+      <created>1489018945904</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1489018945904</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28592000" />
+    <option name="totallyTimeSpent" value="28696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -882,8 +882,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/noticias/noticias.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="39" />
+        <state relative-caret-position="527">
+          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
           <folding />
         </state>
       </provider>
