@@ -2,6 +2,7 @@ function cargaNoticia(noticia) {
     var idNoticia = document.getElementById("Noticia");
 
     idNoticia.style.visibility="hidden";
+    idNoticia.innerHTML="";
 
     var attrYear = noticia.getAttribute("data-year");
     var attrMonth = noticia.getAttribute("data-month");
