@@ -1,5 +1,5 @@
 function cargaNoticia(noticia) {
-    var idNoticia = document.getElementById("#Noticia");
+    var idNoticia = document.getElementById("Noticia");
     var attrYear = noticia.getAttribute("data-year");
     var attrMonth = noticia.getAttribute("data-month");
     var attrTitle = noticia.getAttribute("title").split(" ").join("_");
