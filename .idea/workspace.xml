@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="74a478b5-66e0-4f36-b350-852d7fb36d73" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noticias/noticias.js" afterPath="$PROJECT_DIR$/noticias/noticias.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -75,7 +74,9 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="FORCE_PUSH_ALLOWED" value="true" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
     </option>
@@ -234,6 +235,7 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -314,14 +316,7 @@
       <workItem from="1488719951137" duration="1223000" />
       <workItem from="1488721826356" duration="14107000" />
       <workItem from="1488841146344" duration="2375000" />
-      <workItem from="1488960464755" duration="10402000" />
-    </task>
-    <task id="LOCAL-00008" summary="Carga Noticias">
-      <created>1488749630373</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1488749630373</updated>
+      <workItem from="1488960464755" duration="10425000" />
     </task>
     <task id="LOCAL-00009" summary="Carga Noticias">
       <created>1488749634661</created>
@@ -659,11 +654,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489018398324</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Carga Noticias con JSON arreglado">
+      <created>1489018458575</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1489018458575</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28107000" />
+    <option name="totallyTimeSpent" value="28130000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
