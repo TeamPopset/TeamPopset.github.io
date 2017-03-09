@@ -27,9 +27,10 @@ function cargaNoticia(noticia) {
                 articulo.appendChild(parrafo);
             });
             idNoticia.appendChild(articulo);
-            idNoticia.style.visibility = "visible";
+
         }
     });
+    idNoticia.style.visibility = "visible";
 }
 
 $(document).ready(function () {
