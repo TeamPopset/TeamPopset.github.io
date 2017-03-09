@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="74a478b5-66e0-4f36-b350-852d7fb36d73" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noticias/noticias.js" afterPath="$PROJECT_DIR$/noticias/noticias.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -318,14 +317,7 @@
       <workItem from="1488719951137" duration="1223000" />
       <workItem from="1488721826356" duration="14107000" />
       <workItem from="1488841146344" duration="2375000" />
-      <workItem from="1488960464755" duration="11685000" />
-    </task>
-    <task id="LOCAL-00016" summary="Carga Noticias">
-      <created>1488757585617</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1488757585617</updated>
+      <workItem from="1488960464755" duration="11696000" />
     </task>
     <task id="LOCAL-00017" summary="Carga Noticias">
       <created>1488758023995</created>
@@ -663,11 +655,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489019415456</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Carga Noticias con JSON arreglado">
+      <created>1489019745508</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1489019745508</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29390000" />
+    <option name="totallyTimeSpent" value="29401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
