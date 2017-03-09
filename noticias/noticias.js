@@ -1,5 +1,5 @@
 function cargaNoticia(noticia) {
-    $("#Noticia").style.visibility="hidden";
+    $("#Noticia")[0].toggle(1000);
     var attrYear = noticia.getAttribute("data-year");
     var attrMonth = noticia.getAttribute("data-month");
     var attrTitle = noticia.getAttribute("title").split(" ").join("_");
@@ -27,7 +27,7 @@ function cargaNoticia(noticia) {
         $("#Noticia")[0].appendChild(articulo);
         console.log("Fin Metodo JSON");
     });
-    $("#Noticia").style.visibility="visible";
+    $("#Noticia")[0].toggle(1000);
 }
 
 $(document).ready(function () {
