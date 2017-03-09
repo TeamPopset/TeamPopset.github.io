@@ -1,7 +1,7 @@
 #Noticia{
     visibility: hidden;
     background: ghostwhite;
-    border: darkgrey 10px ridge;
+    border: darkgrey 10px double;
     border-radius: 30px;
 }
 

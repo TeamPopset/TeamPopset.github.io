@@ -48,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/resources/css/noticias.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+              <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -305,14 +305,7 @@
       <workItem from="1488721826356" duration="14107000" />
       <workItem from="1488841146344" duration="2375000" />
       <workItem from="1488960464755" duration="11956000" />
-      <workItem from="1489056647024" duration="3480000" />
-    </task>
-    <task id="LOCAL-00026" summary="Carga Noticias">
-      <created>1488966227683</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1488966227683</updated>
+      <workItem from="1489056647024" duration="3522000" />
     </task>
     <task id="LOCAL-00027" summary="Carga Noticias">
       <created>1488966323641</created>
@@ -650,11 +643,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489099630443</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Carga Noticias con JSON arreglado">
+      <created>1489100785457</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1489100785457</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33141000" />
+    <option name="totallyTimeSpent" value="33183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -904,7 +904,7 @@
     <entry file="file://$PROJECT_DIR$/resources/css/noticias.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
           <folding />
         </state>
       </provider>
