@@ -1,8 +1,7 @@
 #Noticia{
     visibility: hidden;
     background: ghostwhite;
-    outline: darkgray 10px outset;
-    -moz-outline-radius: 30px;
+    /*outline: darkgray 10px outset;
+    -moz-outline-radius: 30px;*/
     border-radius: 30px;
-    padding: 12px 12px 12px 12px;
 }
