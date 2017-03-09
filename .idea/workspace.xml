@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74a478b5-66e0-4f36-b350-852d7fb36d73" name="Default" comment="">
+    <list default="true" id="74a478b5-66e0-4f36-b350-852d7fb36d73" name="Default" comment="Carga Noticias con JSON arreglado">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/noticias/noticias.js" afterPath="$PROJECT_DIR$/noticias/noticias.js" />
     </list>
@@ -57,8 +57,8 @@
       <file leaf-file-name="noticias.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/noticias/noticias.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="459">
+              <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -314,7 +314,7 @@
       <workItem from="1488719951137" duration="1223000" />
       <workItem from="1488721826356" duration="14107000" />
       <workItem from="1488841146344" duration="2375000" />
-      <workItem from="1488960464755" duration="9493000" />
+      <workItem from="1488960464755" duration="9650000" />
     </task>
     <task id="LOCAL-00001" summary="Añadido a WebStorm&#10;">
       <created>1488721864721</created>
@@ -652,11 +652,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489017464752</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Carga Noticias con JSON arreglado">
+      <created>1489017547937</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1489017547937</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27198000" />
+    <option name="totallyTimeSpent" value="27355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -864,8 +871,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/noticias/noticias.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="459">
+          <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
           <folding />
         </state>
       </provider>
