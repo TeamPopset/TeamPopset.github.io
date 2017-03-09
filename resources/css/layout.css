@@ -36,7 +36,7 @@ as soon as the screen size gets less than 480 pixels the columns stack and the m
     display: block;
     float: left;
     padding: 1% 0;
-    margin: 0 0.15% 0 0;
+    margin: 0 0 0 0;
 }
 
 [class*="span-"]:first-child {

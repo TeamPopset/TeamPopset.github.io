@@ -25,7 +25,6 @@ function cargaNoticia(noticia) {
             parrafo.innerHTML = v;
             articulo.appendChild(parrafo);
         });
-
         idNoticia.appendChild(articulo);
         console.log("Fin Metodo JSON");
     });
